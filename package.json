@@ -1,0 +1,24 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "npm demostration",
+  "main": "liri.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abnossis/liri-node-app.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Abnossis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abnossis/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/Abnossis/liri-node-app#readme"
+}
