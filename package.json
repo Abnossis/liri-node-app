@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "npm demostration",
   "main": "liri.js",
-  "dependencies": {},
+  "dependencies": {
+    "node-spotify-api": "^1.0.6",
+    "twit": "^2.2.9"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
