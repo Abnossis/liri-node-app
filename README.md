@@ -8,16 +8,20 @@ Before You Begin
 LIRI will display your latest tweets. As we do not want to display your personal account, or its keys, please make an alias account and add a few tweets to it!
 Make a new GitHub repository called liri-node-app and clone it to your computer.
 To retrieve the data that will power this app, you'll need to send requests to the Twitter, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
+
 Twitter
 Spotify
 Request
+
 You'll use Request to grab data from the OMDB API.
 Instructions
 
 Initialize a package.json file at your project root. Be sure to save all of the npm packages you'll be using to this file. If you fail to initialize a package.json file and save your dependencies to it, it will be troublesome, and at times almost impossible for anyone else to run your code.
 Make a .gitignore file and add the following lines to it. This will tell git not to track these files, and thus they won't be committed to Github.
+
 node_modules
 .DS_Store
+
 Make a JavaScript file named keys.js. Do Not add this file to the .gitignore. This would be a good thing to do in the real world, but it makes grading this assignment a challenge.
 Inside keys.js your file will look like this:
 console.log('this is loaded');
@@ -28,6 +32,7 @@ exports.twitterKeys = {
   access_token_key: '<input here>',
   access_token_secret: '<input here>',
 }
+
 Get your Twitter API keys by following these steps:
 Step One: Visit https://apps.twitter.com/app/new
 Step Two: Fill out the form with dummy data. Type http://google.com in the Website input. Don't fill out the Callback URL input. Then submit the form.
@@ -85,3 +90,6 @@ BONUS
 In addition to logging the data to your terminal/bash window, output the data to a .txt file called log.txt.
 Make sure you append each command you run to the log.txt file.
 Do not overwrite your file each time you run a command.
+Minimum Requirements
+
+Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
